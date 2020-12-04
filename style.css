@@ -1,0 +1,42 @@
+* {
+    font-family: "Press Start 2P";
+}
+
+.search-bar {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+}
+
+.search-button {
+    margin-left: 20px;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.results > * {
+    width: 48%;
+}
+
+.search-results {
+    padding: 0;
+}
+
+.search-results li {
+    width: 100%;
+    text-align: left;
+}
+
+.search-results li:not(:last-child) {
+    border-bottom: none;
+}
+/* à décommenter quand vous avez le JS qui tourne */
+/* .clicked-result {
+    display: none;
+} */
+
+
